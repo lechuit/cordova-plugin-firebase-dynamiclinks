@@ -107,7 +107,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         </config-file>
 
                <config-file target="AndroidManifest.xml" parent="/manifest/application/activity">
-               <intent-filter>
+               <intent-filter minSdkVersion="32">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
