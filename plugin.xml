@@ -100,7 +100,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             <intent-filter android:autoVerify="true">
                 <action android:name="android.intent.action.VIEW"/>
                 <category android:name="android.intent.category.DEFAULT"/>
-                <category android:name="android.intent.category.BROWSABLE"/>
                 <data android:host="$APP_DOMAIN_NAME" android:pathPrefix="$APP_DOMAIN_PATH" android:scheme="http"/>
                 <data android:host="$APP_DOMAIN_NAME" android:pathPrefix="$APP_DOMAIN_PATH" android:scheme="https"/>
             </intent-filter>
@@ -110,7 +109,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                <intent-filter minSdkVersion="32">
                 <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
                 <data android:scheme="http" />
                 <data android:scheme="https" />
             </intent-filter>
